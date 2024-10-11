@@ -120,6 +120,7 @@ hr {
 .seperator a:not(:last-child):not(:nth-child(1)):not(:nth-last-child(3))::after {
     content: '|';
     padding : 0 10px;
+    color: #979797;
 }
 
 .seperator li:not(:last-child)::after {
@@ -279,7 +280,7 @@ hr {
 .image-container {
     position: relative;
     flex: 1; 
-    margin: 10px;
+    margin:0 ;
 }
 
 .image-container img {
@@ -289,16 +290,16 @@ hr {
 
 .text {
     position: absolute;
-    top: 0px; 
-    left: 5px; 
+    top: 10px; 
+    left: 10px; 
     padding:0px 5px; 
     font-size: 14px;
 }
 
 .text-left {
     position: absolute;
-    top: 0px; 
-    left: 0px;
+    top: 10px; 
+    left: 10px;
     padding:0px; 
     font-size: 14px;
 }
@@ -314,6 +315,7 @@ hr {
     margin-top: 10px;
     color: rgb(0, 0, 128,0.4); 
     text-decoration: none;
+  
 }
 
 .align-start {
@@ -322,6 +324,7 @@ hr {
 
 .align-end {
     text-align: end;
+    margin-right: 10px;
 }
 
 #footer {
