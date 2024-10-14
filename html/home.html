@@ -7,20 +7,20 @@
 </head>
 <body>
     <main>
-        <section id = "nav-bar">
+        <section id = "header">
             <img src ="/images/logo.png">
             <div id = "nav-links" class="seperator">
-                <a>Welcome Jeffery <a href="#">(Sign Out)</a></a>
+                <a>Welcome Jeffery (Sign Out)</a>
                 <a>My Account</a>
                 <a class="cart">
                     <img src="/images/icon_cart.png" alt="Cart">999 Items - $999.99 
-                    <a href = "#" class="black-text">Checkout</a>
+                    <span class="black-text">Checkout</span>
                 </a>
                 <a>Customer Service</a>
             </div>
         </section>
-        <section id = "header-wrapper">
-            <div id = "header">
+        <section id = "navbar-wrapper">
+            <div id = "navbar">
                 <div class="link-container">
                     <a href="#" class="link black-text">Dining</a>
                     <div class="divider"></div>
@@ -34,7 +34,7 @@
                     <div class="divider"></div>
                     <a href="#" class="link black-text">Wedding Ideas</a>
                     <div class="divider"></div>
-                    <a href="#" class="link black-text">Clearence $ Special Offer</a>
+                    <a href="#" class="link black-text">Clearence & Special Offer</a>
                     <div class="divider"></div>
                     <div class="row-start">
                         <input type="text" id = "email" class = "inputText" placeholder="Search Keyword/Item #">
@@ -45,11 +45,13 @@
         </section>
         <section id = "registry-section">
             <div id = "offers">
-                    <ul class="p-0">
-                        <li>Free Shipping On Orders Over $150</li>
-                        <li>Holiday Platters</li>
-                        <li>Celebrate Thanksgiving</li>
-                    </ul>
+                    <div class="p-0">
+                        <a>Free Shipping On Orders Over $150</a>
+                        <div class = "circle"></div>
+                        <a>Hoday Platters</a>
+                        <div class = "circle"></div>
+                        <a>Celebrate Thanksgiving</a>
+                    </div>
                 <div id = "registry">
                     <img src="/images/bridelRegistry.jpg" alt="">
                     <p>Bridal Registry</p>
@@ -72,7 +74,7 @@
                         <p class="m-0">Themes</p><hr>
                         <p class="m-0">Buffet</p><hr>
                         <p class="m-0 pb-20">Wine & Cheese</p>
-                        <a>See More Dress YourTable Ideas</a>
+                        <a href="#" class="pointer-none">See More Dress Your Table Ideas</a>
                     </div>
                 </div>
            </div>
@@ -113,11 +115,11 @@
         <section id = "footer">
            <div class="row center">
                 <div>
-                    <ul class="p-0 seperator f12">
-                        <li>About Mikasa</li>
-                        <li>Customer Service</li>
-                        <li>Privacy Policy</li>
-                    </ul>
+                    <div class="p-0 seperator f12" id = "footer-links">
+                        <a href="#">About Mikasa</a>
+                        <a href="#">Customer Service</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
                     <p class="f12">For assistance, call us at 1.866.645.2721 (Mon - Fri 8:30am - 6:00pm est) or <a href="#">Email Us</a></p>
                     <p class="f12">&#169; Copyright 2008 Mikasa & Company</p>
                 </div>
