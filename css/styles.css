@@ -93,7 +93,6 @@ input::placeholder {
 
 #header a {
    color: #979797;
-   margin-left: 8px;
    pointer-events: visible;
 }
 
@@ -222,6 +221,7 @@ input::placeholder {
 
 #reciepe-section img{
     width: 75%;
+    
 }
 
 #table-wrapper {
@@ -299,7 +299,7 @@ input::placeholder {
 .promo-link {
     display: block;
     margin-top: 10px;
-    color: rgb(0, 0, 128,0.4); 
+    color: rgb(0, 0, 128,0.6); 
     text-decoration: none;
   
 }
@@ -310,24 +310,24 @@ input::placeholder {
 
 .align-end {
     text-align: end;
-    margin-right: 10px;
 }
 
 #footer {
     padding-bottom: 100px;
+    padding-top: 8px;
 }
 
 #footer-links a {
     color: white;
     opacity: 0.4;
     text-decoration: underline;
-    margin: 8px 0;
+    margin: 0 0 8px 0;
 }
 
 #footer p {
     color: white;
     opacity: 0.4;
-    margin: 8px 0 4px 0;
+    margin: 0 0 4px 0;
 }
 
 #footer a {
@@ -335,10 +335,14 @@ input::placeholder {
     text-decoration: underline;
 }
 
+#right-content p {
+    margin-bottom:8px;
+}
+
 .inputText {
    height: 20px;
    margin-right: 4px;
-   border: 1.5px solid white;
+   border: 1px solid white;
    border-left: 1px solid black;
    border-top: 1px solid black;
 }
